@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "jspm": "./node_modules/.bin/jspm",
+    "jspm": "echo \"Error: put './node_modules/.bin' in your $PATH\" && exit 1",
+    "tsc": "echo \"Error: put './node_modules/.bin' in your $PATH\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.35"
+    "jspm": "^0.16.35",
+    "typescript": "^1.8.10"
   },
   "postinstall": "jspm i",
   "jspm": {
