@@ -4,11 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "jspm": "./node_modules/.bin/jspm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jspm": "^0.16.35"
+  },
+  "postinstall": "jspm i",
+  "jspm": {
+    "dependencies": {
+      "text": "github:systemjs/plugin-text@^0.0.8"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
   }
 }
