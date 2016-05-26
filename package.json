@@ -12,11 +12,15 @@
   "license": "ISC",
   "devDependencies": {
     "jspm": "^0.16.35",
-    "typescript": "^1.8.10"
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
   },
-  "postinstall": "jspm i",
+  "postinstall": "jspm i && typings i",
   "jspm": {
     "dependencies": {
+      "@angular/router@0.2.0": "npm:@angular/router@0.2.0",
+      "angular": "npm:angular@^1.5.5",
+      "core-js": "npm:core-js@^2.4.0",
       "text": "github:systemjs/plugin-text@^0.0.8"
     },
     "devDependencies": {

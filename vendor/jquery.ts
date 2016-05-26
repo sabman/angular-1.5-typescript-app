@@ -1,0 +1,3 @@
+interface IAugmentedJQuery {
+  ready:any;
+}
