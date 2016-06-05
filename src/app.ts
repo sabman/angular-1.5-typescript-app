@@ -1,7 +1,11 @@
-import 'angular/router';
-import { module } from 'angular';
+/// <reference path="../vendor/jquery.ts"/>
+/// <reference path="../typings/index.d.ts" />
 
-var app = module("app", [
+import 'angular/router/angular1/angular_1_router';
+
+import 'angular';
+
+var app = angular.module("app", [
   "ngComponenetRouter"
 ]);
 
