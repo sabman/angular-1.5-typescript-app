@@ -8,7 +8,7 @@ System.config({
   },
 
   map: {
-    "angular": "npm:angular@1.5.5",
+    "angular": "npm:angular@1.5.6",
     "core-js": "npm:core-js@2.4.0",
     "ngcomponentrouter": "npm:ngcomponentrouter@2.1.0",
     "text": "github:systemjs/plugin-text@0.0.8",
