@@ -1,4 +1,3 @@
-import 'ngcomponentrouter';
 import {BaseComponent} from "./interfaces";
 import {About} from "./about";
 

@@ -2,6 +2,7 @@
 /// <reference path="../typings/index.d.ts" />
 
 import 'angular';
+import 'ngcomponentrouter';
 
 var app = angular.module("app", ["ngComponentRouter"]);
 
