@@ -6,7 +6,8 @@
   "scripts": {
     "jspm": "echo \"Error: put './node_modules/.bin' in your $PATH\" && exit 1",
     "tsc": "echo \"Error: put './node_modules/.bin' in your $PATH\" && exit 1",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "jspm i && typings i"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +16,11 @@
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   },
-  "postinstall": "jspm i && typings i",
   "jspm": {
     "dependencies": {
-      "@angular/router@0.2.0": "npm:@angular/router@0.2.0",
       "angular": "npm:angular@^1.5.5",
       "core-js": "npm:core-js@^2.4.0",
+      "ngcomponentrouter": "npm:ngcomponentrouter@^2.1.0",
       "text": "github:systemjs/plugin-text@^0.0.8"
     },
     "devDependencies": {

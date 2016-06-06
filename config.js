@@ -8,9 +8,9 @@ System.config({
   },
 
   map: {
-    "@angular/router@0.2.0": "npm:@angular/router@0.2.0",
     "angular": "npm:angular@1.5.5",
     "core-js": "npm:core-js@2.4.0",
+    "ngcomponentrouter": "npm:ngcomponentrouter@2.1.0",
     "text": "github:systemjs/plugin-text@0.0.8",
     "typescript": "npm:typescript@1.8.10",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -30,9 +30,6 @@ System.config({
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
-    },
-    "npm:@angular/router@0.2.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:assert@1.4.1": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -56,6 +53,9 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:ngcomponentrouter@2.1.0": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:os-browserify@0.1.2": {
       "os": "github:jspm/nodelibs-os@0.1.0"
