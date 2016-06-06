@@ -1,9 +1,25 @@
-<script src="jspm_packages/system.js"></script>
-<script src="config.js"></script>
-<script>
-  System.import('core-js')
-  .then(function() {
-      return System.import('app/bootstrap');
-  })
-  .catch(console.log.bind(console));
-</script>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Angular 1.5 ngComponentRouter in Typescript plus systemjs and jspm
+  </title>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('core-js')
+      .then(function() {
+        return System.import('src/bootstrap');
+      })
+      .catch(console.log.bind(console));
+  </script>
+
+</head>
+
+<body>
+  <website></website>
+</body>
+
+</html>
